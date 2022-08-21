@@ -6,8 +6,10 @@
     padding: 0;
 }
 
-   
+  
 html, body{min-width: 100vh; background-color: white; }
+  
+p {min-width: 500px;}
 
 header{
 border-radius: 1px;
@@ -17,12 +19,12 @@ box-shadow: 1px 1px 1px black;
         padding-top: 50px;
         text-align: center;
         font-variant: small-caps; 
-        background-attachment: fixed ;
+      min-width: 500px;
    }
 
-header > h1 {font-size: 3em; }
+header > h1 {font-size: 3em; max-width: 100%;}
 
-header > p {padding-bottom: 50px;
+header > p {padding-bottom: 50px; width: 100%;
 font-size: 2em;}
 header > nav {background-color: rgba(39, 38, 38, 0.76); height: 50px;
 }
@@ -37,7 +39,8 @@ a:hover{color: rgba(30, 139, 190, 0.527); transition: 0.5s;}
 section {padding-top: 20px;
 padding-bottom: 20px;
 font-size: 2em;
-line-height: 2em; }
+line-height: 2em;
+min-width: 500px; }
 
 
 .branco{background-color: white;
@@ -45,7 +48,7 @@ line-height: 2em; }
 
 .imagem{  box-shadow: inset 1px 1px 20px black;}
 
-    #img01{background-image: url(imagens/001.jpg);
+    #img01{background-image: url(imagens/IMG_0881.jpg);
         background-size: cover;
         background-attachment: fixed;
     background-position: right center;}
@@ -53,8 +56,8 @@ line-height: 2em; }
         background-size: cover;
         background-attachment: fixed;}
 
-section > p, section > h1  { background-color: rgba(0, 0, 0, 0.637);
-    width: auto; color: white; width: 600px; margin-left: 20px; border-radius: 5px; text-align: center;}
+section > p, section > h1  {  background-color: rgba(0, 0, 0, 0.637);
+    color: white; width: 600px; margin-left: 20px; border-radius: 5px; text-align: center;}
 
-footer{background-color: black; text-align: center; color: white; padding: 5px; border-radius: 3px;}
+footer{min-width: 500px; background-color: black; text-align: center; color: white; padding: 5px; border-radius: 3px;}
 
