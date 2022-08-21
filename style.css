@@ -1,0 +1,60 @@
+@charset "UTF-8"
+
+:root { --font01: 'Verdana'}
+
+* {
+    padding: 0;
+}
+
+   
+html, body{min-width: 100vh; background-color: white; }
+
+header{
+border-radius: 1px;
+box-shadow: 1px 1px 1px black;
+    background-color: black;
+        color: white;
+        padding-top: 50px;
+        text-align: center;
+        font-variant: small-caps; 
+        background-attachment: fixed ;
+   }
+
+header > h1 {font-size: 3em; }
+
+header > p {padding-bottom: 50px;
+font-size: 2em;}
+header > nav {background-color: rgba(39, 38, 38, 0.76); height: 50px;
+}
+
+header  a {text-decoration: none;
+width: 100px;
+color:white; padding:12.5px;
+display: inline-block;}
+
+a:hover{color: rgba(30, 139, 190, 0.527); transition: 0.5s;}
+
+section {padding-top: 20px;
+padding-bottom: 20px;
+font-size: 2em;
+line-height: 2em; }
+
+
+.branco{background-color: white;
+}
+
+.imagem{  box-shadow: inset 1px 1px 20px black;}
+
+    #img01{background-image: url(imagens/001.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    background-position: right center;}
+    #img02{background-image: url(imagens/002.png);
+        background-size: cover;
+        background-attachment: fixed;}
+
+section > p, section > h1  { background-color: rgba(0, 0, 0, 0.637);
+    width: auto; color: white; width: 600px; margin-left: 20px; border-radius: 5px; text-align: center;}
+
+footer{background-color: black; text-align: center; color: white; padding: 5px; border-radius: 3px;}
+
