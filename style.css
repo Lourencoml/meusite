@@ -51,10 +51,10 @@ font-family: var(--fonte01);}
 
 .imagem{  box-shadow: inset 1px 1px 20px black;}
 
-    #img01{background-image: url(imagens/IMG_0881.jpg);
+    #img01{background-image: url(imagens/001.jpg);
         background-size: cover;
         background-attachment: fixed;
-        background-position: top center;
+        background-position: right bottom;
   }
     #img02{background-image: url(imagens/002.png);
         background-size: cover;
