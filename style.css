@@ -1,6 +1,8 @@
 @charset "UTF-8"
 
-:root { --font01: 'Verdana'}
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root { --fonte01: 'Calibri'}
 
 * {
     padding: 0;
@@ -40,7 +42,8 @@ section {padding-top: 20px;
 padding-bottom: 20px;
 font-size: 2em;
 line-height: 2em;
-min-width: 500px; }
+min-width: 500px; 
+font-family: var(--fonte01);}
 
 
 .branco{background-color: white;
@@ -51,13 +54,15 @@ min-width: 500px; }
     #img01{background-image: url(imagens/IMG_0881.jpg);
         background-size: cover;
         background-attachment: fixed;
-    background-position: right center;}
+        background-position: top center;
+  }
     #img02{background-image: url(imagens/002.png);
         background-size: cover;
         background-attachment: fixed;}
 
 section > p, section > h1  {  background-color: rgba(0, 0, 0, 0.637);
-    color: white; width: 600px; margin-left: 20px; border-radius: 5px; text-align: center;}
+    color: white; width: 600px; margin-left: 20px; 
+    border-radius: 5px; text-align: center; }
 
 footer{min-width: 500px; background-color: black; text-align: center; color: white; padding: 5px; border-radius: 3px;}
 
