@@ -24,17 +24,17 @@ box-shadow: 1px 1px 1px black;
       min-width: 500px;
    }
 
-header > h1 {font-size: 3em; max-width: 100%;}
+header > h1 {font-size: 5vw; max-width: 100%;}
 
 header > p {padding-bottom: 50px; width: 100%;
-font-size: 2em;}
-header > nav {background-color: rgba(39, 38, 38, 0.76); height: 50px;
+font-size: 3vw;}
+header > nav {margin:auto; background-color: rgba(39, 38, 38, 0.76); height: 50px;
 }
 
 header  a {text-decoration: none;
 width: 100px;
-color:white; padding:12.5px;
-display: inline-block;}
+color:white; padding-top:12.5px; padding-bottom: 12.5;
+display: inline-block; font-size: 2.1vw;}
 
 a:hover{color: rgba(30, 139, 190, 0.527); transition: 0.5s;}
 
@@ -51,18 +51,18 @@ font-family: var(--fonte01);}
 
 .imagem{  box-shadow: inset 1px 1px 20px black;}
 
-    #img01{background-image: url(imagens/001.jpg);
+    #img01{background-image: url(imagens/001.png);
         background-size: cover;
         background-attachment: fixed;
-        background-position: right bottom;
+        background-position: top right;
   }
     #img02{background-image: url(imagens/002.png);
         background-size: cover;
         background-attachment: fixed;}
 
 section > p, section > h1  {  background-color: rgba(0, 0, 0, 0.637);
-    color: white; width: 600px; margin-left: 20px; 
-    border-radius: 5px; text-align: center; }
+    color: white; min-width: 320px; max-width:600px; margin-left: 20px; 
+    border-radius: 5px; text-align: center; font-size: 3vw;}
 
-footer{min-width: 500px; background-color: black; text-align: center; color: white; padding: 5px; border-radius: 3px;}
+footer{font-size:1.5vw; min-width: 320px; background-color: black; text-align: center; color: white; padding: 5px; border-radius: 3px;}
 
