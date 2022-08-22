@@ -26,15 +26,15 @@ box-shadow: 1px 1px 1px black;
 
 header > h1 {font-size: 5vw; max-width: 100%;}
 
-header > p {padding-bottom: 50px; width: 100%;
+header > p {padding-bottom: 50px; width: 100%; 
 font-size: 3vw;}
-header > nav {margin:auto; background-color: rgba(39, 38, 38, 0.76); height: 50px;
+header > nav {border-radius: 2px; margin: auto; background-image: linear-gradient(to right, rgba(37, 37, 37, 0.774), rgba(34, 34, 34, 0.26)); height: 50px; 
 }
 
 header  a {text-decoration: none;
 width: 100px;
-color:white; padding-top:12.5px; padding-bottom: 12.5;
-display: inline-block; font-size: 2.1vw;}
+color:white; padding-top:11px; padding-bottom: 12.5;
+display: inline-block; font-size: 2vw;}
 
 a:hover{color: rgba(30, 139, 190, 0.527); transition: 0.5s;}
 
